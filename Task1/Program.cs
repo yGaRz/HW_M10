@@ -7,7 +7,7 @@ namespace Task1
         static void Main(string[] args)
         {
             int t = 0;
-            while(t!=-1)
+            while (t != -1)
             {
                 Console.WriteLine("Выберите 1 - сложение, 2 - деление");
                 try
@@ -26,7 +26,7 @@ namespace Task1
                 {
                     Console.WriteLine("На ноль делить нельзя");
                 }
-                catch(FormatException)
+                catch (FormatException)
                 {
                     Console.WriteLine("При вводе произошла ошибка, попробуйте еще раз.");
                 }
